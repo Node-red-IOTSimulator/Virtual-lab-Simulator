@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Node-red-IOTSimulator/package.json",
+  "name": "node-red-contrib-iot-simulator",
+  "description": "IoT Virtual Simulator on Node-Red",
+  "version": "0.0.1",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/Node-red-IOTSimulator/Virtual-lab-Simulator.git"
+  },
+   "contributors": [
+        {
+            "name": "Nico Ardi Panjaitan"
+        },
+        {
+            "name": "Anggreany Neta Silalahi"
+        },
+        {
+            "name": "Ady Daniel Aruan"
+        }
+    ],
+  "keywords": [
+    "node-red",
+    "iot",
+    "simulator"
+  ],
+  "node-red": {
+    "nodes": {
+    "sensor-suara": "sensor-suara.js",
+    "sensor-jarak": "sensor-jarak.js",
+      "sensor-kelembapan": "sensor-kelembapan.js",
+      "sensor-suhu": "sensor-suhu.js",
+      "sensor-cahaya": "sensor-cahaya.js",
+      "sensor-gas": "sensor-gas.js",
+       "sensor-tekanan": "sensor-tekanan.js",
+      "iot-simulator": "iot-simulator.js"
+    }
+  }
+}
